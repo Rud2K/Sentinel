@@ -119,7 +119,9 @@ public class LogController {
         while (!tempDate.isAfter(endDate.toLocalDate())) {
             String tableName = "log_" + tempDate.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
             try {
-                allLogs.addAll(readLogsMapper.findFilteredLogs(tableName, src_ip, src_port, dst_ip, dst_port, detected_name, level, action, startDate, endDate));
+                allLogs.addAll(
+                		readLogsMapper.findFilteredLogs(
+                				tableName, src_ip, src_port, dst_ip, dst_port, detected_name, level, action, startDate, endDate));
             } catch (DataAccessException e) {
                 if (e.getRootCause() instanceof SQLSyntaxErrorException) {
                     System.out.println("========== <" + tableName + "> 해당 로그 테이블이 존재하지 않습니다. ==========");
