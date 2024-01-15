@@ -18,7 +18,7 @@ Sentinel<Member> 양주목 = new Sentinel<Member>("관리자 UI/UX 디자인");
 
 ### ⚙️ 개발 환경
 ```javascript
-const Sentienl = {
+const Sentinel = {
   Language: "Java 17(JDK 17), C/C++, HTML5, CSS3, JavaScript",
   IDE: "Eclipse 4.29.0",
   Framework: "Spring Boot 3.1.6",
