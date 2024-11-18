@@ -16,7 +16,7 @@ Sentinel<Member> 한주연 = new Sentinel<Member>("관리자 UI/UX 개발", "관
 Sentinel<Member> 양주목 = new Sentinel<Member>("관리자 UI/UX 디자인");
 ```
 
-### ⚙️ 개발 환경
+### 🛠️ 개발 환경
 ```javascript
 const Sentinel = {
   Language: "Java 17(JDK 17), C/C++, HTML5, CSS3, JavaScript",
@@ -54,6 +54,9 @@ const Sentinel = {
 <img src="https://github.com/Rud2K/Sentinel/blob/master/Sentinel/src/main/resources/static/img/%ED%99%94%EB%A9%B4_%EC%A0%95%EC%B1%85%EB%A6%AC%EC%8A%A4%ED%8A%B8.png" alt="정책 관리 화면"/><br>
 <img src="https://github.com/Rud2K/Sentinel/blob/master/Sentinel/src/main/resources/static/img/%ED%99%94%EB%A9%B4_%EB%A1%9C%EA%B7%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8.png" alt="로그 조회 화면"/><br>
 <img src="https://github.com/Rud2K/Sentinel/blob/master/Sentinel/src/main/resources/static/img/%ED%99%94%EB%A9%B4_%EC%83%81%EC%84%B8%EB%A1%9C%EA%B7%B8.png" alt="상세 로그 조회 화면"/>
+
+### ⚙️ 엔진
+#### 보안 엔진 Github Link: https://github.com/Salieri1126/Sentinal_C
 
 ### 📞 연락처
   - **Naver:** rudgh2647k@naver.com
