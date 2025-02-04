@@ -57,6 +57,3 @@ const Sentinel = {
 
 ### ⚙️ 엔진
 #### 보안 엔진 Github Link: https://github.com/Salieri1126/Sentinal_C
-
-### 📞 연락처
-  - **Naver:** rudgh2647k@naver.com
